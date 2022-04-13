@@ -1,0 +1,78 @@
+<meta charset="utf-8">
+
+<script>
+	// function pulaLinha(){
+	// 	document.write("<br><br>");
+	// }
+
+	// function mostra(frase) {
+	// 	document.write(frase);
+	// 	pulaLinha();
+	// }
+
+	// var numeroPensado = Math.round(Math.random() * 10);
+	// var chute = parseInt(prompt("Digite o seu chute! "));
+
+	// if(chute == numeroPensado ) {
+	// 	mostra("Parabéns você acertou ");
+	// } else {
+	// 	mostra("Você errou, o número pensado foi " + numeroPensado);
+	// }
+
+	//Exemplo de usar condicoes com IF & ELSE
+	   // function pulaLinha() {
+    //     document.write("<br>");
+    // }
+
+    // function mostra(frase) {
+    //     document.write(frase);
+    //     pulaLinha();
+    // }
+
+    // var idade = parseInt(prompt("Qual é sua idade?"));
+    // var temCarteira = prompt("Tem carteira? Responda S ou N");
+
+    // if(idade >= 18 && temCarteira == "S") {
+    // 	mostra("Ok, pode dirigir");
+    // } else {
+    // 	mostra("Não pode dirigir");
+    // }
+
+    //Jogo chute !
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function mostra(frase) {
+    	document.write(frase);
+        pulaLinha();
+    }
+
+    var numeroPensado = Math.round(Math.random() * 10);
+
+    var tentativas = 1;
+
+    while( tentativas <= 3){
+
+        var chute = parseInt(prompt("Digite seu chute "));
+
+        if(chute == numeroPensado) {
+
+            mostra("Uau! Você acertou, o número pensado era " + numeroPensado);
+            break;
+        } else {
+
+            mostra("Você errou!");  
+    }  
+
+    tentativas++
+}
+   
+</script>
